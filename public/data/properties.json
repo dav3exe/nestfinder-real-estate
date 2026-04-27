@@ -1,0 +1,379 @@
+[
+  {
+    "id": 1,
+    "image": "/properties/maplewood.png",
+    "propertyName": "MAPLEWOOD FAMILY ESTATE",
+    "location": {
+      "city": "Atan Ota",
+      "state": "Ogun",
+      "fullAddress": "Atan Ota, Ogun Nigeria",
+      "coordinates": { "lat": 6.6833, "lng": 3.2167 }
+    },
+    "details": { "bedrooms": 4, "bathrooms": 3, "size": 648 },
+    "price": 8000000,
+    "discount": "20% off",
+    "sale": "For Rent",
+    "PropertyType": "House",
+    "agentName": "Victoria Sebastian",
+      "agentPhone": "+2348012345678",
+      "amenities": {
+      "Gym": false,
+      "Pool": false,
+      "Security": true,
+      "Electricity": true,
+      "Garden": true
+    }
+  },
+  {
+    "id": 2,
+    "image": "/properties/victoria bay.png",
+    "propertyName": "Victoria Bay Luxury Villa",
+    "location": {
+      "city": "Victoria Island",
+      "state": "Lagos",
+      "fullAddress": "Victoria Island, Lagos, Nigeria",
+      "coordinates": { "lat": 6.4281, "lng": 3.4219 }
+    },
+    "details": { "bedrooms": 2, "bathrooms": 3, "size": 712 },
+    "price": 8000000,
+    "discount": "20% off",
+    "sale": "For Sale",
+    "PropertyType": "Residential",
+    "agentName": "Bibian Eze",
+      "agentPhone": "+2348012347678",
+      "amenities": {
+      "Gym": true,
+      "Pool": false,
+      "Security": true,
+      "Electricity": true,
+      "Garden": true
+    }
+
+  },
+  {
+    "id": 3,
+    "image": "/properties/emerald.png",
+    "propertyName": "Emerald Garden Apartments",
+    "location": {
+      "city": "Wuse 2",
+      "state": "Abuja",
+      "fullAddress": "Wuse 2, Abuja, Nigeria",
+      "coordinates": { "lat": 9.0765, "lng": 7.4776 }
+    },
+    "details": { "bedrooms": 2, "bathrooms": 2, "size": 1148 },
+    "price": 8000000,
+    "discount": "20% off",
+    "sale": "For Rent",
+    "PropertyType": "Apartment",
+    "agentName": "Adeniyi Anjola",
+      "agentPhone": "+2348012345678",
+      "amenities": {
+      "Gym": false,
+      "Pool": true,
+      "Security": true,
+      "Electricity": true,
+      "Garden": false
+    }
+  },
+  {
+    "id": 4,
+    "image": "/properties/sunset.png",
+    "propertyName": "Sunset Ridge Residence",
+    "location": {
+      "city": "Lekki Phase 1",
+      "state": "Lagos",
+      "fullAddress": "Lekki Phase 1, Lagos, Nigeria",
+      "coordinates": { "lat": 6.4478, "lng": 3.4737 }
+    },
+    "details": { "bedrooms": 4, "bathrooms": 3, "size": 648 },
+    "price": 8000000,
+    "discount": "20% off",
+    "sale": "For Rent",
+    "PropertyType": "Apartment",
+    "agentName": "Nana Fatima",
+      "agentPhone": "+2348012345788",
+      "amenities": {
+      "Gym": false,
+      "Pool": true,
+      "Security": true,
+      "Electricity": true,
+      "Garden": false
+    }
+  },
+  {
+    "id": 5,
+    "image": "/properties/ocean pearl.png",
+    "propertyName": "Ocean Pearl Residence",
+    "location": {
+      "city": "Banana Island",
+      "state": "Lagos",
+      "fullAddress": "Banana Island, Lagos, Nigeria",
+      "coordinates": { "lat": 6.4638, "lng": 3.4547 }
+    },
+    "details": { "bedrooms": 2, "bathrooms": 1, "size": 748 },
+    "price": 5000000,
+    "discount": "20% off",
+    "sale": "For Sale",
+    "PropertyType": "Residential",
+    "agentName": "Suliama Olufunbi",
+      "agentPhone": "+2348012342678",
+      "amenities": {
+      "Gym": false,
+      "Pool": true,
+      "Security": true,
+      "Electricity": true,
+      "Garden": false
+    }
+  },
+
+  {
+    "id": 6,
+    "image": "/properties/golden palm.png",
+    "propertyName": "Golden Palm Villa",
+    "location": {
+      "city": "Ajah",
+      "state": "Lagos",
+      "fullAddress": "Ajah, Lagos, Nigeria",
+      "coordinates": { "lat": 6.4619, "lng": 3.5958 }
+    },
+    "details": { "bedrooms": 3, "bathrooms": 3, "size": 6448 },
+    "price": 8000000,
+    "discount": "20% off",
+    "sale": "For Sale",
+    "PropertyType": "House",
+    "agentName": "Suliama Olufunbi",
+      "agentPhone": "+2348012342678",
+      "amenities": {
+      "Gym": false,
+      "Pool": true,
+      "Security": false,
+      "Electricity": true,
+      "Garden": false
+    }
+  },
+  {
+    "id": 7,
+    "image": "/properties/golden villa.png",
+    "propertyName": "Golden Palm Villa",
+    "location": {
+      "city": "Ajah",
+      "state": "Lagos",
+      "fullAddress": "Ajah, Lagos, Nigeria",
+      "coordinates": { "lat": 6.4621, "lng": 3.5960 }
+    },
+    "details": { "bedrooms": 4, "bathrooms": 3, "size": 1148 },
+    "price": 8000000,
+    "discount": "50% off",
+    "sale": "For Rent",
+    "PropertyType": "Apartment",
+    "agentName": "Olatunji modupe",
+      "agentPhone": "+2348012342678",
+      "amenities": {
+      "Gym": false,
+      "Pool": true,
+      "Security": true,
+      "Electricity": true,
+      "Garden": false
+    }
+  },
+  {
+    "id": 8,
+    "image": "/properties/harmony.png",
+    "propertyName": "Harmony Heights Apartments",
+    "location": {
+      "city": "Gwarinpa",
+      "state": "Abuja",
+      "fullAddress": "Gwarinpa, Abuja, Nigeria",
+      "coordinates": { "lat": 9.1062, "lng": 7.4069 }
+    },
+    "details": { "bedrooms": 3, "bathrooms": 3, "size": 658 },
+    "price": 1000000,
+    "discount": "30% off",
+    "sale": "For Sale",
+    "PropertyType": "House",
+    "agentName": "Suliama Olufunbi",
+      "agentPhone": "+2348012342678",
+      "amenities": {
+      "Gym": false,
+      "Pool": true,
+      "Security": true,
+      "Electricity": true,
+      "Garden": false
+    }
+  },
+  {
+    "id": 9,
+    "image": "/properties/houston.png",
+    "propertyName": "HOUSTON PARK AND GARDEN",
+    "location": {
+      "city": "Atan Ota",
+      "state": "Ogun",
+      "fullAddress": "Atan Ota, Ogun Nigeria",
+      "coordinates": { "lat": 6.6835, "lng": 3.2165 }
+    },
+    "details": { "bedrooms": 4, "bathrooms": 2, "size": 642 },
+    "price": 8000000,
+    "discount": "20% off",
+    "sale": "For Sale",
+    "PropertyType": "Residential",
+    "agentName": "Suliama Olufunbi",
+      "agentPhone": "+2348012342678",
+      "amenities": {
+      "Gym": false,
+      "Pool": true,
+      "Security": true,
+      "Electricity": true,
+      "Garden": false
+    }
+  },
+  {
+    "id": 10,
+    "image": "/properties/lakeview.png",
+    "propertyName": "Lakeview Premium Duplex",
+    "location": {
+      "city": "Jabi",
+      "state": "Abuja",
+      "fullAddress": "Jabi, Abuja, Nigeria",
+      "coordinates": { "lat": 9.0667, "lng": 7.4208 }
+    },
+    "details": { "bedrooms": 3, "bathrooms": 2, "size": 6148 },
+    "price": 8000000,
+    "discount": "30% off",
+    "sale": "For Rent",
+    "PropertyType": "House",
+    "agentName": "Suliama Olufunbi",
+      "agentPhone": "+2348012342678",
+      "amenities": {
+      "Gym": false,
+      "Pool": true,
+      "Security": true,
+      "Electricity": true,
+      "Garden": false
+    }
+  },
+  {
+    "id": 11,
+    "image": "/properties/cedar.png",
+    "propertyName": "Cedar Park Family Home",
+    "location": {
+      "city": "Ikeja GRA",
+      "state": "Lagos",
+      "fullAddress": "Ikeja GRA, Lagos, Nigeria",
+      "coordinates": { "lat": 6.5878, "lng": 3.3503 }
+    },
+    "details": { "bedrooms": 4, "bathrooms": 3, "size": 648 },
+    "price": 8000000,
+    "discount": "",
+    "sale": "For Sale",
+    "PropertyType": "Residential",
+    "agentName": "Suliama Olufunbi",
+      "agentPhone": "+2348012342678",
+      "amenities": {
+      "Gym": false,
+      "Pool": true,
+      "Security": true,
+      "Electricity": true,
+      "Garden": false
+    }
+  },
+  {
+    "id": 12,
+    "image": "/properties/the royal.png",
+    "propertyName": "The Royal Garden Villa",
+    "location": {
+      "city": "Maitama",
+      "state": "Abuja",
+      "fullAddress": "Maitama, Abuja, Nigeria",
+      "coordinates": { "lat": 9.0833, "lng": 7.4951 }
+    },
+    "details": { "bedrooms": 2, "bathrooms": 2, "size": 648 },
+    "price": 8000000,
+    "discount": "20% off",
+    "sale": "For Rent",
+    "PropertyType": "House",
+    "agentName": "Suliama Olufunbi",
+      "agentPhone": "+2348012342678",
+      "amenities": {
+      "Gym": false,
+      "Pool": true,
+      "Security": true,
+      "Electricity": true,
+      "Garden": false
+    }
+  },
+  {
+    "id": 13,
+    "image": "/properties/pearl court.png",
+    "propertyName": "Pearl Court Residences",
+    "location": {
+      "city": "Oniru",
+      "state": "Lagos",
+      "fullAddress": "Oniru, Lagos, Nigeria",
+      "coordinates": { "lat": 6.4358, "lng": 3.4431 }
+    },
+    "details": { "bedrooms": 3, "bathrooms": 1, "size": 648 },
+    "price": 5000000,
+    "discount": "20% off",
+    "sale": "For Sale",
+    "PropertyType": "Residential",
+    "agentName": "Suliama Olufunbi",
+      "agentPhone": "+2348012342678",
+      "amenities": {
+      "Gym": false,
+      "Pool": true,
+      "Security": true,
+      "Electricity": true,
+      "Garden": false
+    }
+  },
+  {
+    "id": 14,
+    "image": "/properties/hilltop.png",
+    "propertyName": "Hilltop Luxury Estate",
+    "location": {
+      "city": "Asokoro",
+      "state": "Abuja",
+      "fullAddress": "Asokoro, Abuja, Nigeria",
+      "coordinates": { "lat": 9.0436, "lng": 7.5186 }
+    },
+    "details": { "bedrooms": 1, "bathrooms": 2, "size": 648 },
+    "price": 8000000,
+    "discount": "",
+    "sale": "For Rent",
+    "PropertyType": "Apartment",
+    "agentName": "Suliama Olufunbi",
+      "agentPhone": "+2348012342678",
+      "amenities": {
+      "Gym": false,
+      "Pool": true,
+      "Security": true,
+      "Electricity": true,
+      "Garden": false
+    }
+  },
+  {
+    "id": 15,
+    "image": "/properties/oakwood.png",
+    "propertyName": "Oakwood Executive Residence",
+    "location": {
+      "city": "Utako",
+      "state": "Abuja",
+      "fullAddress": "Utako, Abuja Nigeria",
+      "coordinates": { "lat": 9.0628, "lng": 7.4422 }
+    },
+    "details": { "bedrooms": 1, "bathrooms": 3, "size": 648 },
+    "price": 8000000,
+    "discount": "50% off",
+    "sale": "For Rent",
+    "PropertyType": "Apartment",
+    "agentName": "Suliama Olufunbi",
+      "agentPhone": "+2348012342678",
+      "amenities": {
+      "Gym": true,
+      "Pool": true,
+      "Security": true,
+      "Electricity": true,
+      "Garden": true
+    }
+  }
+]
