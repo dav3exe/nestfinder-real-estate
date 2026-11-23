@@ -1,69 +1,42 @@
-# React + TypeScript + Vite
+# NestFinder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A property listing site for people renting or buying homes in Nigeria. Visitors browse listings, filter and sort them, open a property to see photos, details and its location on a map, and send an enquiry to the agent. Admins add and manage properties, read enquiries and manage users.
 
-Currently, two official plugins are available:
+**Live:** https://nestfinder-real-estate.vercel.app
+**Backend:** [nestfinder-real-estate-backend](https://github.com/dav3exe/nestfinder-real-estate-backend)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Built as a team project during Tech Studio Academy's full-stack training. The team repo is [Chloetrini/nestfinder-real-estate](https://github.com/Chloetrini/nestfinder-real-estate).
 
-## Expanding the ESLint configuration
+## My part
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **All-properties page**, frontend and backend: filters for all 36 Nigerian states, property type, bedrooms, rent or sale and price range; sorting by price and by biggest discount; 12 listings per page with pagination; and the API endpoint that only returns published listings.
+- **Admin pages**, frontend and backend: managing properties, enquiries and users, protected by JWT and an admin role check.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Home, About and a 404 page
+- Sign up, log in, email verification, forgot password and reset password
+- Property listings and property detail pages (signed-in users only)
+- Property location on a map
+- Agent enquiry form
+- Admin dashboard: add and manage properties, enquiries and users (admins only)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Stack
+
+React 19, TypeScript, Vite, Tailwind CSS 4, React Router 7, Google Maps and Leaflet for maps, react-hot-toast for notifications. The backend is Node.js, Express and MongoDB.
+
+## Run locally
+
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Create a `.env` file in the project root:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+| Variable | What it's for |
+| --- | --- |
+| `VITE_API_URL` | Backend URL. Defaults to `http://localhost:4040` |
+| `VITE_GOOGLE_MAPS_API_KEY` | Google Maps key for the property map |
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Other scripts: `npm run build`, `npm run lint`, `npm run preview`.
