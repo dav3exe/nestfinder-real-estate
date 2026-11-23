@@ -23,7 +23,7 @@ Built as a team project during Tech Studio Academy's full-stack training. The te
 
 ## Stack
 
-React 19, TypeScript, Vite, Tailwind CSS 4, React Router 7, Google Maps and Leaflet for maps, react-hot-toast for notifications. The backend is Node.js, Express and MongoDB.
+React 19, TypeScript, Vite, Tailwind CSS 4, React Router 7, Google Maps (`@vis.gl/react-google-maps`) for the property map, react-hot-toast for notifications. The backend is Node.js, Express and MongoDB.
 
 ## Run locally
 
